@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BootstrapModule } from './bootstrap/bootstrap.module';
 import { FooterComponent } from './views/footer/footer.component';
 import { HeaderComponent } from './views/header/header.component';
+import { BodyComponent } from './views/body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
