@@ -7,14 +7,18 @@ import { AppComponent } from './app.component';
 import { BootstrapModule } from './bootstrap/bootstrap.module';
 import { FooterComponent } from './views/footer/footer.component';
 import { HeaderComponent } from './views/header/header.component';
-import { BodyComponent } from './views/body/body.component';
+import { ClientsComponent } from './views/clients/clients.component';
+import { SpecComponent } from './views/spec/spec.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    BodyComponent
+    ClientsComponent,
+    SpecComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
