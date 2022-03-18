@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.margin-top-small{
+  margin-top: 25px;
+}
+
+.margin-bottom-small{
+  margin-bottom: 25px;
+}
+
+.font-white{
+  color: #D3D3D3;
+}
+
+.logo{
+  max-width: 100px;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/assets/img/bg-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+
