@@ -11,6 +11,7 @@ import { ClientsComponent } from './views/clients/clients.component';
 import { SpecComponent } from './views/spec/spec.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { TeamComponent } from './views/team/team.component';
+import { DifferenceComponent } from './views/difference/difference.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TeamComponent } from './views/team/team.component';
     ClientsComponent,
     SpecComponent,
     ContactComponent,
-    TeamComponent
+    TeamComponent,
+    DifferenceComponent
   ],
   imports: [
     BrowserModule,
